@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Drawing App built By Prachi Sharma</h1>
+        <div class="controls">
+            <label for="colorPicker">Color:</label>
+            <input type="color" id="colorPicker" value="#000000">
+            
+            <label for="brushSize">Brush Size:</label>
+            <input type="range" id="brushSize" min="1" max="50" value="5">
+            
+            <button id="eraserButton">Eraser</button>
+            <button id="clearButton">Clear Canvas</button>
+            <button id="undoButton">Undo</button>
+        </div>
+        <canvas id="drawingCanvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
